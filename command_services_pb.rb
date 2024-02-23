@@ -2,7 +2,7 @@
 # Source: command.proto for package 'xray.app.proxyman.command'
 
 require 'grpc'
-require 'command_pb'
+require_relative 'command_pb'
 
 module Xray
   module App
